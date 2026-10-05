@@ -10,6 +10,12 @@
   font-style: normal;
 }
 
+.montserrat-botao {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
 *{
   margin: 0;
   padding: 0;
@@ -28,7 +34,7 @@ body{
 }
 
 .apresentacao{
-  margin: 10%; 
+  margin: 10% 15%; 
   display: flex;
   align-items: center;
  justify-content: space-between;
@@ -39,6 +45,9 @@ img{
 }
 .apresentacao__conteudo{
 width: 615px;
+display: flex;
+flex-direction: column;
+gap: 40px;
 }
 .fonte{
   font-size: 36px;
@@ -51,4 +60,16 @@ font-family:"Krona One", sans-serif;
 .apresentacao__links {
   display: flex;
   justify-content: space-between;
+}
+.botao{
+  background-color: #22D4FD;
+  width: 280px;
+text-align: center;
+border-radius: 16px;;
+font-size: 24px;
+font-weight: 600;
+padding: 21.5px 0;
+text-decoration:none ;
+color: black;
+font-family: "Montserrat", sans-serif;
 }
